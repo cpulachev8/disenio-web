@@ -1,0 +1,26 @@
+.pelota {
+    width: 5%;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    position: relative;
+    /* left: 100px; */
+    animation-name: mover;
+    animation-duration: 10s;
+    box-sizing: border-box;
+}
+
+
+/* Animación para mover la pelota de ida */
+
+@keyframes mover {
+    from {
+        left: 0;
+    }
+    to {
+        left: 95%;
+    }
+}
+
+
+/* animación para mover la pelota ida y vuelta */
